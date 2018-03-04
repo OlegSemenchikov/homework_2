@@ -1,0 +1,26 @@
+.menu  {
+    background-image: url("../images/Background1.png");
+    background-size: cover;
+    }
+.logo  {
+    margin-top: 36px;
+    margin-left: 390px;
+    }
+.text1 {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    }
+.text2 {
+    font-family: Dotum;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -30px;
+    }
+.button1 {
+    text-align: center;
+}
