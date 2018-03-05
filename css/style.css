@@ -1,26 +1,74 @@
 .menu  {
     background-image: url("../images/Background1.png");
     background-size: cover;
+    width: 1920px;
+    height: 650px;
     }
 .logo  {
-    margin-top: 36px;
-    margin-left: 390px;
+    padding-top: 36px;
+    padding-left: 390px;
     }
+.gr_text {
+    margin-top: 157px;
+    margin-left: 491px;
+    width: 933px;
+    height: 90px;
+}
+
 .text1 {
-    font-family: Arial;
+    font-family: Arial, serif;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 46px;
     font-weight: 700;
-    text-align: center;
+    /*text-align: center;*/
     }
 .text2 {
-    font-family: Dotum;
+    font-family: Dotum, serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 100;
-    text-align: center;
-    margin-top: -30px;
+    /*text-align: center;*/
+    margin-top: -40px;
     }
 .button1 {
+
+    margin-top: 49px;
+    margin-left: 50%;
+    border-radius: 3px;
+    border-width: 4px;
+    border-color:  #48bf72;
+    border-style: solid;
+    width: 134px;
+    height: 35px;
+    opacity: .1;
+    color: #48bf72;
     text-align: center;
-}
+    }
+.images {
+    width: 1140px;
+    height: 828px;
+    padding: 134px 390px 150px 390px;
+    }
+.item1 {
+    width: 450px;
+    height: 302px;
+    margin-top: 0px;
+    margin-right: 40px;
+    float: left;
+    }
+.item2 {
+    width: 650px;
+    height: 438px;
+    }
+.item3 {
+    width: 450px;
+    height: 486px;
+    margin-top: -94px;
+    margin-right: 40px;
+    float: left;
+    }
+.item4 {
+    width: 650px;
+    height: 350px;
+    margin-top: 40px;
+   }
