@@ -13,7 +13,7 @@
     margin-left: 491px;
     width: 933px;
     height: 90px;
-}
+    }
 
 .text1 {
     font-family: Arial, serif;
@@ -52,13 +52,15 @@
 .item1 {
     width: 450px;
     height: 302px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-right: 40px;
     float: left;
+    border-radius: 10px;
     }
 .item2 {
     width: 650px;
     height: 438px;
+    border-radius: 10px;
     }
 .item3 {
     width: 450px;
@@ -66,9 +68,87 @@
     margin-top: -94px;
     margin-right: 40px;
     float: left;
+    border-radius: 10px;
     }
 .item4 {
     width: 650px;
     height: 350px;
     margin-top: 40px;
+    border-radius: 10px;
    }
+.man {
+    width: 1920px;
+    height: 500px;
+    }
+.contact {
+    margin-top: 51px;
+    font-family: Arial, serif;
+    color:  #48bf72;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 848px;
+    }
+.myform {
+    margin-top: 54px;
+    margin-left: 610px;
+    margin-right: 610px;
+    width: 703px;
+    height: 390px;
+    }
+.nom{
+    background-image: url("../images/icon-nom.png");
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    width: 270px;
+    height: 46px;
+    float: left;
+    border: 2px solid #394754;
+    }
+.email {
+    background-image: url("../images/icon-email.png");
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    width: 270px;
+    height: 46px;
+    float: right;
+    border: 2px solid #394754;
+    }
+.message {
+    background-image: url("../images/icon-message.png");
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    width: 640px;
+    height: 224px;
+    margin-top: 30px;
+    border: 2px solid #394754;
+    text-align: justify;
+    }
+.envoy{
+    margin-top: 30px;
+    width: 703px;
+    height: 50px;
+    border-radius: 3px;
+    background-color:  #48bf72;
+    color: white;
+    }
+.rectangle  {
+    background-image: url("../images/rectangle.png");
+    background-size: cover;
+    width: 1920px;
+    height: 201px;
+    margin-top: 53px;
+    }
+.copyrigt {
+    float: left;
+    padding-top: 80px;
+    padding-left: 392px;
+    font-family: Lato;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    }
+.social{
+    padding-top: 73px;
+    padding-left: 466px;
+    }
