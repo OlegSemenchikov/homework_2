@@ -11,10 +11,10 @@
         <div align="center" class="gr_text">
             <p class="text1">VOICI VOTRE PROCHAIN PORTFOLIO</p>
             <p class="text2">UN TEMPLATE PSD SIMPLE ET GRATUIT</p>
+            <form id="data">
+                <button class="button1" form="data" formmethod="POST">MES TRAVAUX</button>
+            </form>
         </div>
-        <form id="data">
-                    <button class="button1" form="data" formmethod="POST">MES TRAVAUX</button>
-        </form>
     </div>
     <div class="images">
         <img src="images/Item1.png" class="item1">
@@ -22,13 +22,18 @@
         <img src="images/Item3.png" class="item3">
         <img src="images/Item4.png" class="item4">
     </div>
-    <img src="images/man-computer.png" class="man">
-    <p class="contact">ME CONTACTRER</p>
+    <div class="man">
+        <img src="images/man-computer.png" >
+    </div>
+    <p class="contact">ME CONTACTER</p>
+    <div class="table">
+        <a href="table/table.html" target="_blank">My Table</a>
+    </div>
     <div align="center" class="myform">
         <form action="server/index.html" method="POST">
             <input type="text" name="nom" placeholder="Votre nom" class="nom">
             <input type="text" name="email" placeholder="Votre email" class="email">
-            <input type="text" name="message" placeholder="Votre message" class="message">
+            <textarea name="message" placeholder="Votre message" class="message"></textarea>
             <input type="submit" value="ENVOYER" class="envoy">
         </form>
     </div>

@@ -20,28 +20,26 @@
     color: #ffffff;
     font-size: 46px;
     font-weight: 700;
-    /*text-align: center;*/
     }
 .text2 {
     font-family: Dotum, serif;
     color: #ffffff;
     font-size: 30px;
     font-weight: 100;
-    /*text-align: center;*/
     margin-top: -40px;
     }
 .button1 {
 
     margin-top: 49px;
-    margin-left: 50%;
+    float: center;
     border-radius: 3px;
     border-width: 4px;
-    border-color:  #48bf72;
+    border-color:  #45BE70;
     border-style: solid;
     width: 134px;
     height: 35px;
     opacity: .1;
-    color: #48bf72;
+    color: #45BE70;
     text-align: center;
     }
 .images {
@@ -77,21 +75,31 @@
     border-radius: 10px;
    }
 .man {
+    float: left;
     width: 1920px;
     height: 500px;
     }
 .contact {
+    float: left;
     margin-top: 51px;
     font-family: Arial, serif;
-    color:  #48bf72;
+    color:  #45BE70;
     font-size: 26px;
     font-weight: 700;
     padding-left: 848px;
+    text-align: center;
     }
+.table {
+    float: left;
+    margin-bottom: 31px;
+    font-family: Arial, serif;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 895px;
+    text-align: center;
+}
 .myform {
-    margin-top: 54px;
-    margin-left: 610px;
-    margin-right: 610px;
+    margin: 54px 610px 200px 610px;
     width: 703px;
     height: 390px;
     }
@@ -128,21 +136,21 @@
     width: 703px;
     height: 50px;
     border-radius: 3px;
-    background-color:  #48bf72;
+    background-color:  #45BE70;
     color: white;
     }
 .rectangle  {
-    background-image: url("../images/rectangle.png");
+    background-color: #384653;
     background-size: cover;
     width: 1920px;
     height: 201px;
-    margin-top: 53px;
+    margin-top: 683px;
     }
 .copyrigt {
     float: left;
     padding-top: 80px;
     padding-left: 392px;
-    font-family: Lato;
+    font-family: Lato, serif;
     color:  #ffffff;
     font-size: 16px;
     font-weight: 400;

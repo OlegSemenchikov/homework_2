@@ -1,0 +1,21 @@
+.for_table{
+    width: 1180px;
+    height: 330px;
+    border-collapse: collapse;
+}
+.text_center{
+    text-align: center;
+    }
+.text_left{
+    text-align: left;
+    }
+.text_green{
+    text-align: center;
+    background: #0f8012;
+    color: #ffffff;
+}
+.text_blue{
+    text-align: center;
+    color:#0a0bfb;
+    border: 8px double #000000;
+}
