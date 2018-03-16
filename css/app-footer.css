@@ -1,0 +1,26 @@
+.footer_wrapper {
+    display: block;
+    background-color: #384653;
+    color: #ffffff;
+    text-decoration: none;
+    height: 200px;
+    width: 1920px;
+}
+.text_footer{
+    position: relative;
+    top: 94px;
+    left: 392px;
+    font-family: Lato, serif;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.widget_social li{
+    display: inline-block;
+    position: relative;
+    left: 1220px;
+    top: 40px;
+}
+
+

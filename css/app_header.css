@@ -1,0 +1,53 @@
+.app-wrapper {
+    background-image: url("../images/Background1.png");
+    background-size: cover;
+    width: 1920px;
+    height: 650px;
+    position: relative;
+}
+.app-header {
+    display: block;
+    width: 1000px;
+    position: absolute;
+    left: 22%;
+}
+.logo  {
+    position: absolute;
+    top: 36px;
+}
+.menu{
+    position: absolute;
+    right: 0;
+    color: #ffffff;
+    top: 80px;
+    font-size: 20px;
+}
+.menu a{
+    color: #ffffff;
+}
+.gr_text {
+    position: relative;
+    top:190px ;
+    font-family: Arial, serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text1 {
+    font-size: 50px;
+}
+.text2 {
+    font-size: 30px;
+}
+.button1 {
+    position: relative;
+    border-radius: 3px;
+    width: 134px;
+    height: 35px;
+    color: #46C172;
+    text-align: center;
+    border: 2px solid #46C172;
+    text-transform: uppercase;
+    background: none;
+}

@@ -3,6 +3,12 @@
     height: 330px;
     border-collapse: collapse;
 }
+.column_1{
+    width:140px;
+}
+.column_2{
+    width:260px;
+}
 .text_center{
     text-align: center;
     }
